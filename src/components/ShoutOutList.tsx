@@ -14,6 +14,7 @@ export default function ShoutOutList() {
 
     return (
         <div className = 'ShoutOutList'>
+            <p>Just trying to see if the component is rendering at all?</p>
             {shoutOuts.map(shoutOut => 
                 <p className='ShoutOut_inner' key={shoutOut.to}><SingleShoutOut shoutOut={shoutOut}/></p>)}
         </div>

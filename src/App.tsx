@@ -1,11 +1,14 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import ShoutOutList from './components/ShoutOutList';
+import Header from './components/Header';
+import { Route, BrowserRouter as Router, Routes} from 'react-router-dom';
 
 function App() {
   return (
     <div className="App">
+
+        <Header/>
         <ShoutOutList/>
     </div>
   );
